@@ -1,0 +1,38 @@
+@font-face {
+  font-family: 'barber';
+  src: url('./fonts/RICH\ THE\ BARBER\ PERSONAL\ USE.ttf');
+}
+.ligneTop {
+  background-color: black;
+  height: 20px;
+}
+.ligneBack {
+  background-color: black;
+  height: 2px;
+  opacity: 0.5;
+  margin-top: 5px;
+}
+.logoDiv {
+  display: flex;
+  justify-content: center;
+}
+.logo {
+  width: 200px;
+}
+ul {
+  font-family: barber;
+  list-style: none;
+  color: black;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 30px;
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:visited {
+  color: black;
+}

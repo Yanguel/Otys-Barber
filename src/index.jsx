@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom/client'
 import Home from './pages/home'
 import Header from './components/header'
 import Footer from './components/footer'
+import './styles/normalize.css'
+
 // Importe React-Router
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 

@@ -1,3 +1,7 @@
+.pictures,
+.pictureContainer {
+  object-fit: cover;
+}
 .carousel {
   position: relative;
 }
@@ -27,4 +31,14 @@
 .carousel,
 .overlayTitle {
   margin: 0.8rem 0 1rem 0;
+}
+.centerCarousel {
+  width: 70%;
+}
+.carousel .control-dots {
+  bottom: 20px;
+}
+.carousel .control-arrow,
+.carousel.carousel-slider .control-arrow {
+  margin: 0 20px;
 }

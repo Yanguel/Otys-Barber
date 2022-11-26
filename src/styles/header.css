@@ -19,8 +19,7 @@
 .logo {
   width: 200px;
 }
-ul {
-  font-family: barber;
+.headerNav {
   list-style: none;
   color: black;
   display: flex;
@@ -35,4 +34,11 @@ a {
 }
 a:visited {
   color: black;
+}
+.actualite,
+.realisation,
+.prestations,
+.equipe,
+.conseils {
+  font-family: barber;
 }

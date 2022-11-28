@@ -10,7 +10,9 @@ function Header() {
         <div className="ligneTop"></div>
       </header>
       <div className="logoDiv">
-        <img src={Logo} alt="Logo Oty's Barber" className="logo" />
+        <Link to="/">
+          <img src={Logo} alt="Logo Oty's Barber" className="logo" />
+        </Link>
       </div>
       <nav className="listePuce">
         <ul className="headerNav">

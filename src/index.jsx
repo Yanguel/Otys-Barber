@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import Home from './pages/home'
+import Realisations from './pages/realisations'
 import Header from './components/header'
 import Footer from './components/footer'
 import './styles/normalize.css'
@@ -14,6 +15,7 @@ root.render(
     <Header />
     <Routes>
       <Route path="/" element={<Home />} />
+      <Route path="/réalisation" element={<Realisations />} />
     </Routes>
     <Footer />
   </BrowserRouter>

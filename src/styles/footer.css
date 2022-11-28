@@ -1,0 +1,26 @@
+footer {
+  position: relative;
+  width: 100%;
+  margin-top: auto;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footerLogo {
+  filter: invert(100);
+  width: 150px;
+}
+.absolute {
+  padding-top: 20px;
+}
+.fa-instagram,
+.fa-facebook {
+  color: white;
+}
+.fa-instagram {
+  margin-right: 20px;
+}
+.socialMedia {
+  display: flex;
+}

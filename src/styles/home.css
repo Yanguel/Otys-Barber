@@ -35,10 +35,12 @@
 .titleAdresse {
   font-size: 20px;
   font-weight: 600;
+  text-decoration: underline;
 }
 .opening {
   font-size: 18px;
 }
 .phone {
   text-decoration: underline;
+  font-size: 25px;
 }

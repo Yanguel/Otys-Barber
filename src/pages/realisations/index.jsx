@@ -24,6 +24,18 @@ function Realisations() {
           return <Realisation key={index} id={photo.id} image={photo.image} />
         })}
       </section>
+      <div className="paragrapheRealisations">
+        <p>
+          Toutes les photos présentées ici sont des coupes de cheveux et des
+          tailles de barbe qui ont été réalisé par notre équipe. <br />
+          Lors de votre visite, nous vous conseillerons sur ce qu’il est
+          possible de faire en fonction de vos envies, de ce que vous avez et de
+          ce qu’il est possible de réaliser. <p />
+          <p className="paragrapheInsta">
+            Pour en voir plus suivez-nous sur Instagram
+          </p>
+        </p>
+      </div>
     </div>
   )
 }

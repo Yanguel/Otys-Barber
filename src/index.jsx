@@ -5,7 +5,7 @@ import Realisations from './pages/realisations'
 import Header from './components/header'
 import Footer from './components/footer'
 import './styles/normalize.css'
-
+import './styles/racine.css'
 // Importe React-Router
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 

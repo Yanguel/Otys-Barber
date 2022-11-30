@@ -14,7 +14,7 @@ function Footer() {
       </div>
       <div>
         <ul className="socialMedia">
-          <a href="#">
+          <a href="https://www.instagram.com/otysbarber/?hl=fr">
             <li>
               {' '}
               <i className="fa-brands fa-instagram fa-bounce fa-2xl"></i>

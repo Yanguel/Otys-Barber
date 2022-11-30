@@ -6,34 +6,33 @@ import { Link } from 'react-router-dom'
 function Header() {
   return (
     <header className="headerTotality">
-      <header className="headerTop">
-        <div className="ligneTop"></div>
-      </header>
-      <div className="logoDiv">
-        <Link to="/">
-          <img src={Logo} alt="Logo Oty's Barber" className="logo" />
-        </Link>
+      <div className="total">
+        <div className="headerTop">
+          <div className="ligneTop"></div>
+        </div>
+        <div className="logoDiv">
+          <Link to="/">
+            <img src={Logo} alt="Logo Oty's Barber" className="logo" />
+          </Link>
+        </div>
+        <nav className="listePuce">
+          <ul className="headerNav">
+            <Link to="/" className="accueil">
+              <li>ACCUEIL</li>
+            </Link>
+            <Link to="/réalisations" className="realisation">
+              <li>RÉALISATIONS</li>
+            </Link>
+            <Link to="/" className="prestations">
+              <li>PRÉSTATIONS</li>
+            </Link>
+            <Link to="/l'équipe" className="equipe">
+              <li>L'ÉQUIPE</li>
+            </Link>
+          </ul>
+          <div className="ligneBack"></div>
+        </nav>
       </div>
-      <nav className="listePuce">
-        <ul className="headerNav">
-          <Link to="/" className="actualite">
-            <li>ACTUALITÉ</li>
-          </Link>
-          <Link to="/réalisations" className="realisation">
-            <li>RÉALISATIONS</li>
-          </Link>
-          <Link to="/" className="prestations">
-            <li>PRÉSTATIONS</li>
-          </Link>
-          <Link to="/" className="equipe">
-            <li>L'ÉQUIPE</li>
-          </Link>
-          <Link to="/" className="conseils">
-            <li>NOS CONSEILS</li>
-          </Link>
-        </ul>
-        <div className="ligneBack"></div>
-      </nav>
     </header>
   )
 }

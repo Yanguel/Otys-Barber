@@ -2,14 +2,21 @@
   font-family: 'barbers';
   src: url('./fonts/Rockwell.ttf');
 }
+.titleRealisations {
+  text-decoration: underline;
+  text-align: center;
+  margin-top: 40px;
+}
+.realisations {
+  font-family: barbers;
+}
 .textRealisations {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: barbers;
 }
 .paragraphe1 {
-  width: 70%;
+  width: 50%;
   text-align: center;
   font-size: larger;
 }
@@ -18,7 +25,7 @@
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-evenly;
-  margin: 25px 70px 25px 70px;
+  margin: 25px 100px 25px 100px;
   padding-top: 5px;
   /* background-color: lightgrey;
   border-radius: 10px; */
@@ -28,10 +35,18 @@
 }
 .uneRealisation {
   border-radius: 20px;
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
   object-fit: cover;
 }
 .paragrapheRealisations {
   text-align: center;
+  font-size: larger;
+}
+.paragraphe2 {
+  margin-top: 55px;
+}
+.instagramReal {
+  width: 120px;
+  margin-top: 20px;
 }

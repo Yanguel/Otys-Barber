@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'barbers';
+  src: url('./fonts/Rockwell.ttf');
+}
+.titreEquipe {
+  font-family: barbers;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+.paragrapheEquipe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.paragraphe1Equipe {
+  width: 50%;
+  font-size: large;
+  font-family: barbers;
+}
+.photoEquipe {
+  margin: 20px;
+}
+.divTotalPhotos {
+  display: flex;
+  margin: 20px 40px 20px 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.oussama {
+  height: 494px;
+}
+.paragrapheBottomPicture {
+  text-align: center;
+  margin-top: 0;
+  font-family: barbers;
+  line-height: 1.5;
+}
+.nameBarbier {
+  font-size: xx-large;
+}
+.horaireEquipe {
+  font-family: barbers;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.borderHoraire {
+  border: 4px solid #02020240;
+  width: 50%;
+  margin-bottom: 21px;
+}

@@ -1,34 +1,48 @@
-import img1 from '../../assets/photo1.jpg'
-import img2 from '../../assets/photo2.jpg'
-import img3 from '../../assets/photo3.jpg'
-import img4 from '../../assets/photo4.jpg'
-import img5 from '../../assets/photo5.jpg'
-import img6 from '../../assets/photo6.jpg'
-
+import real1 from '../../assets/real1.png'
+import real2 from '../../assets/real2.png'
+import real3 from '../../assets/real3.png'
+import real4 from '../../assets/real4.png'
+import real5 from '../../assets/real5.png'
+import real6 from '../../assets/real6.png'
+import real7 from '../../assets/real7.png'
+import real8 from '../../assets/real8.png'
+import real9 from '../../assets/real9.png'
 const datas = [
   {
     id: 1,
-    image: `${img1}`,
+    image: `${real1}`,
   },
   {
     id: 2,
-    image: `${img2}`,
+    image: `${real2}`,
   },
   {
     id: 3,
-    image: `${img3}`,
+    image: `${real3}`,
   },
   {
     id: 4,
-    image: `${img4}`,
+    image: `${real4}`,
   },
   {
     id: 5,
-    image: `${img5}`,
+    image: `${real5}`,
   },
   {
     id: 6,
-    image: `${img6}`,
+    image: `${real6}`,
+  },
+  {
+    id: 7,
+    image: `${real7}`,
+  },
+  {
+    id: 8,
+    image: `${real8}`,
+  },
+  {
+    id: 9,
+    image: `${real9}`,
   },
 ]
 export default datas

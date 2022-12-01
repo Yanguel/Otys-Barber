@@ -1,8 +1,18 @@
+import { useEffect, useState } from 'react'
 import CarouselFunction from '../../components/carousel'
+import Loader from '../../components/loader'
 import '../../styles/home.css'
 function Home() {
+  const [loader, setLoader] = useState(true)
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoader(false)
+    }, 1000)
+  }, [loader])
   return (
     <div className="home">
+      <Loader />
       <CarouselFunction />
       <div className="postCarousel">
         <div className="topLigne"></div>

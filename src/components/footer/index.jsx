@@ -12,21 +12,6 @@ function Footer() {
       <div className="absolute">
         <img src={Logo} alt="Logo Oty's Barber" className="footerLogo" />
       </div>
-      <div>
-        <ul className="socialMedia">
-          <a href="https://www.instagram.com/otysbarber/?hl=fr">
-            <li>
-              {' '}
-              <i className="fa-brands fa-instagram fa-bounce fa-2xl"></i>
-            </li>
-          </a>
-          <a href="https://www.facebook.com/otysbarber/">
-            <li>
-              <i className="fa-brands fa-facebook fa-bounce fa-2xl"></i>
-            </li>
-          </a>
-        </ul>
-      </div>
     </footer>
   )
 }

@@ -8,7 +8,7 @@ function Home() {
   useEffect(() => {
     setTimeout(() => {
       setLoader(false)
-    }, 1000)
+    }, 800)
   }, [loader])
   return (
     <div className="home">
@@ -40,7 +40,9 @@ function Home() {
               <li>Samedi : 10h00 - 14h30</li>
               <li>Dimanche : Fermé </li>
             </ul>
-            <p className="phone">Tel: 06 17 43 34 56</p>
+            <p className="phone">
+              Tel: <a href="tel:+33617433456">06 17 43 34 56</a>
+            </p>
           </div>
         </div>
       </div>

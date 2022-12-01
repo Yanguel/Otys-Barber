@@ -29,8 +29,25 @@
   align-items: center;
 }
 .itineraire {
-  background-color: black;
-  color: white;
+  font-size: 20px;
+  font-family: Georgia;
+  width: 135px;
+  height: 35px;
+  border-width: 2px;
+  color: #505739;
+  border-color: #333029;
+  font-weight: bold;
+  border-top-left-radius: 19px;
+  border-top-right-radius: 19px;
+  border-bottom-left-radius: 19px;
+  border-bottom-right-radius: 19px;
+  box-shadow: inset 0px 1px 0px 0px #1c1b18;
+  text-shadow: inset 0px -4px 0px #ffffff;
+  background: linear-gradient(#eae0c2, #ccc2a6);
+  cursor: pointer;
+}
+.itineraire:hover {
+  background: linear-gradient(#ccc2a6, #eae0c2);
 }
 .titleAdresse {
   font-size: 20px;

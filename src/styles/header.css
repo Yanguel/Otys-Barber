@@ -39,6 +39,7 @@
   font-size: 30px;
   padding: 0;
   margin: 0;
+  font-family: barber;
 }
 a {
   text-decoration: none;
@@ -46,11 +47,4 @@ a {
 }
 a:visited {
   color: black;
-}
-.accueil,
-.realisation,
-.prestations,
-.equipe,
-.conseils {
-  font-family: barber;
 }

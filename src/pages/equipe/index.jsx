@@ -1,7 +1,7 @@
 import React from 'react'
 import teddy from '../../assets/teddy.jpg'
 import thibault from '../../assets/thibault.jpg'
-import ouss from '../../assets/ouss.jpg'
+import ouss from '../../assets/ouss2.png'
 import '../../styles/equipe.css'
 function Equipe() {
   return (

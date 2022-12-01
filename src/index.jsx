@@ -2,6 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import Home from './pages/home'
 import Realisations from './pages/realisations'
+import Prestations from './pages/prestation'
 import Equipe from './pages/equipe'
 import Header from './components/header'
 import Footer from './components/footer'
@@ -18,6 +19,7 @@ root.render(
       <Route path="/" element={<Home />} />
       <Route path="/réalisations" element={<Realisations />} />
       <Route path="/l'équipe" element={<Equipe />} />
+      <Route path="/préstations-et-tarifs" element={<Prestations />} />
     </Routes>
     <Footer />
   </BrowserRouter>

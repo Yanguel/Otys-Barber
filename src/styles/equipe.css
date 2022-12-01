@@ -19,6 +19,20 @@
   font-size: large;
   font-family: barbers;
 }
+.divPhoto {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    45deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(47, 47, 47, 1) 29%,
+    rgba(80, 80, 80, 1) 29%,
+    rgba(124, 124, 124, 1) 59%,
+    rgba(106, 106, 106, 1) 59%,
+    rgba(255, 255, 255, 1) 94%
+  );
+  margin: 20px;
+  border-radius: 20px;
+}
 .photoEquipe {
   margin: 20px;
 }
@@ -34,6 +48,7 @@
 .paragrapheBottomPicture {
   text-align: center;
   margin-top: 0;
+  color: white;
   font-family: barbers;
   line-height: 1.5;
 }

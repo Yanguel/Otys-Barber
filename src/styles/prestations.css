@@ -1,0 +1,30 @@
+@font-face {
+  font-family: iconebarber;
+  src: url('../styles/fonts/Barber\ icone.ttf');
+}
+@font-face {
+  font-family: 'barber';
+  src: url('./fonts/RICH\ THE\ BARBER\ PERSONAL\ USE.ttf');
+}
+.titlePrestation {
+  font-family: barber;
+}
+.containerPrestations {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.divPrestations {
+  text-align: justify;
+}
+.ulClassique,
+.ulTraditionnel {
+  list-style: none;
+}
+.teinture {
+  font-size: 20px;
+}
+.souligner {
+  text-decoration: underline;
+}

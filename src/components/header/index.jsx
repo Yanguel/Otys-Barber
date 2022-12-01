@@ -23,7 +23,7 @@ function Header() {
             <Link to="/réalisations" className="realisation">
               <li>RÉALISATIONS</li>
             </Link>
-            <Link to="/" className="prestations">
+            <Link to="/préstations-et-tarifs" className="prestations">
               <li>PRÉSTATIONS</li>
             </Link>
             <Link to="/l'équipe" className="equipe">

@@ -36,16 +36,24 @@ function Header() {
         <nav className="listePuce">
           <ul className="headerNav">
             <Link to="/" className="accueil">
-              <li>ACCUEIL</li>
+              <li>
+                <span className="iconeHeader">a</span>ACCUEIL
+              </li>
             </Link>
             <Link to="/réalisations" className="realisation">
-              <li>RÉALISATIONS</li>
+              <li>
+                <span className="iconeHeader">$</span>RÉALISATIONS
+              </li>
             </Link>
             <Link to="/préstations-et-tarifs" className="prestations">
-              <li>PRÉSTATIONS</li>
+              <li>
+                <span className="iconeHeader">7</span>PRESTATIONS
+              </li>
             </Link>
             <Link to="/l'équipe" className="equipe">
-              <li>L'ÉQUIPE</li>
+              <li>
+                <span className="iconeHeader">x</span>L'ÉQUIPE
+              </li>
             </Link>
           </ul>
           <div className="ligneBack"></div>

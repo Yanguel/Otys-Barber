@@ -11,27 +11,29 @@ function Prestations() {
         <ul className="ulClassique">
           {' '}
           <h2 className="souligner">RASAGE CLASSIQUE</h2>
-          <li>
+          <li className="liClassique">
             {' '}
-            <strong>COUPE SIMPLE</strong> (Tracage - Ciseaux - Tondeuse) : 20€
+            <strong>COUPE SIMPLE</strong> (Traçage - Ciseaux - Tondeuse) :
+            <strong>20€</strong>
           </li>
-          <li>
-            <strong>COUPE ET BARBE</strong> (Tracage - Ciseaux - Tondeuse) : 25€
+          <li className="liClassique">
+            <strong>COUPE ET BARBE</strong> (Traçage - Ciseaux - Tondeuse) :{' '}
+            <strong>25€</strong>
           </li>
-          <li>
+          <li className="liClassique">
             {' '}
-            <strong>COUPE JUNIOR (6-10ans)</strong> (Tracage - Ciseaux -
-            Tondeuse) : 15€
+            <strong>COUPE JUNIOR (6-10ans)</strong> (Traçage - Ciseaux -
+            Tondeuse) : <strong>15€</strong>
           </li>
         </ul>
         <ul className="ulTraditionnel">
           <h2 className="souligner"> RASAGE TRADITIONNEL</h2>
-          <li>
-            <strong>BARBE / TRACAGE RASOIR :</strong>: 15€
+          <li className="liTraditionnel">
+            <strong>BARBE / TRAÇAGE RASOIR :</strong>: <strong>15€</strong>
           </li>
-          <li>
+          <li className="liTraditionnel">
             {' '}
-            <strong>BARBE / SERVIETTE CHAUDE :</strong>: 25€
+            <strong>BARBE / SERVIETTE CHAUDE :</strong>: <strong>25€</strong>
           </li>
         </ul>
         <p className="teinture"> TEINTURE / DÉCOLORATION SUR DEVIS </p>

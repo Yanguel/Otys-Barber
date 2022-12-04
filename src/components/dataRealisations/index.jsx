@@ -7,6 +7,9 @@ import real6 from '../../assets/real6.png'
 import real7 from '../../assets/real7.png'
 import real8 from '../../assets/real8.png'
 import real9 from '../../assets/real9.png'
+import real10 from '../../assets/real10.png'
+import real11 from '../../assets/real11.png'
+import real12 from '../../assets/real12.png'
 const datas = [
   {
     id: 1,
@@ -43,6 +46,18 @@ const datas = [
   {
     id: 9,
     image: `${real9}`,
+  },
+  {
+    id: 10,
+    image: `${real10}`,
+  },
+  {
+    id: 11,
+    image: `${real11}`,
+  },
+  {
+    id: 12,
+    image: `${real12}`,
   },
 ]
 export default datas

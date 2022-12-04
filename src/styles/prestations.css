@@ -3,11 +3,12 @@
   src: url('../styles/fonts/Barber\ icone.ttf');
 }
 @font-face {
-  font-family: 'barber';
-  src: url('./fonts/RICH\ THE\ BARBER\ PERSONAL\ USE.ttf');
+  font-family: 'vintage';
+  src: url('./fonts/Amarante-Regular.ttf');
 }
 .titlePrestation {
-  font-family: barber;
+  font-family: vintage;
+  margin-top: 40px;
 }
 .containerPrestations {
   display: flex;
@@ -17,14 +18,25 @@
 }
 .divPrestations {
   text-align: justify;
+  font-family: vintage;
 }
 .ulClassique,
 .ulTraditionnel {
   list-style: none;
 }
+.liTraditionnel,
+.liClassique {
+  font-size: 20px;
+}
 .teinture {
   font-size: 20px;
+  text-align: center;
 }
 .souligner {
   text-decoration: underline;
+}
+.borderHoraire {
+  font-family: vintage;
+
+  font-size: 20px;
 }

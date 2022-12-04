@@ -1,6 +1,14 @@
 @font-face {
-  font-family: 'barber';
-  src: url('./fonts/RICH\ THE\ BARBER\ PERSONAL\ USE.ttf');
+  font-family: 'iconeTypo';
+  src: url('./fonts/Barber\ icone.ttf');
+}
+@font-face {
+  font-family: 'allstars';
+  src: url('./fonts/All\ Star\ Resort.ttf');
+}
+@font-face {
+  font-family: 'vintage';
+  src: url('./fonts/Amarante-Regular.ttf');
 }
 /* Header déroulant !
 
@@ -42,6 +50,8 @@
 }
 .socialMediaHeader {
   list-style: none;
+  font-family: vintage;
+  font-size: 15px;
 }
 .logo {
   width: 200px;
@@ -52,10 +62,14 @@
   color: black;
   display: flex;
   justify-content: space-evenly;
-  font-size: 30px;
+  font-size: 40px;
   padding: 0;
   margin: 0;
-  font-family: barber;
+  font-family: allstars;
+}
+.iconeHeader {
+  font-family: iconeTypo;
+  margin-right: 10px;
 }
 .accueil:hover,
 .realisation:hover,

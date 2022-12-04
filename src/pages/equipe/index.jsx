@@ -13,8 +13,7 @@ function Equipe() {
         <p className="paragraphe1Equipe">
           Nous avons réuni pour vous dans notre équipe des barbiers avec une
           forte expérience. Tout cela ajouté au savoir-faire Français, fait que
-          nous pouvons aujourd’hui vous proposer un service de qualité et
-          d’expérience !
+          nous pouvons aujourd’hui vous proposer un service de qualité !
         </p>
       </div>
       <div className="divTotalPhotos">

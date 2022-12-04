@@ -2,13 +2,20 @@
   font-family: 'barbers';
   src: url('./fonts/Rockwell.ttf');
 }
+@font-face {
+  font-family: 'allstar';
+  src: url('./fonts/All\ Star\ Resort.ttf');
+}
+@font-face {
+  font-family: 'vintage';
+  src: url('./fonts/Amarante-Regular.ttf');
+}
 .titleRealisations {
   text-decoration: underline;
   text-align: center;
   margin-top: 40px;
-}
-.realisations {
-  font-family: barbers;
+  font-family: vintage;
+  font-weight: normal;
 }
 .textRealisations {
   display: flex;
@@ -18,7 +25,8 @@
 .paragraphe1 {
   width: 50%;
   text-align: center;
-  font-size: larger;
+  font-size: 20px;
+  font-family: vintage;
 }
 .picturesRealisation {
   display: flex;
@@ -41,7 +49,9 @@
 }
 .paragrapheRealisations {
   text-align: center;
-  font-size: larger;
+  font-size: 20px;
+  font-family: vintage;
+  margin: 0px 20px 0px 20px;
 }
 .paragraphe2 {
   margin-top: 55px;

@@ -85,3 +85,23 @@ a {
 a:visited {
   color: black;
 }
+/* Responsive Tablette */
+@media screen and (max-width: 1023px) {
+}
+/* Responsive Téléphone */
+
+@media screen and (max-width: 767px) {
+  .logo {
+    padding-left: 0px;
+  }
+  .logoDiv {
+    display: flex;
+    flex-direction: column;
+  }
+  .headerNav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+  }
+}

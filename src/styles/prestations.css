@@ -9,6 +9,7 @@
 .titlePrestation {
   font-family: vintage;
   margin-top: 40px;
+  font-weight: normal;
 }
 .containerPrestations {
   display: flex;
@@ -39,4 +40,23 @@
   font-family: vintage;
 
   font-size: 20px;
+}
+
+/* Responsive Téléphone */
+
+@media screen and (max-width: 425px) {
+  .titlePrestation {
+    font-size: 25px;
+  }
+  .divPrestations {
+    text-align: center;
+  }
+  .ulClassique,
+  .ulTraditionnel {
+    padding-left: 0px;
+  }
+  .liClassique,
+  .liTraditionnel {
+    font-size: 15px;
+  }
 }

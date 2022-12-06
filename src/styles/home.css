@@ -18,7 +18,9 @@
   flex-direction: column;
   align-items: center;
   font-family: vintage;
+  text-align: center;
 }
+
 .textP1 {
   text-align: center;
   font-size: 20px;
@@ -62,8 +64,36 @@
 }
 .opening {
   font-size: 20px;
+  text-align: justify;
 }
 .phone {
   text-decoration: underline;
   font-size: 25px;
+}
+
+@media screen and (min-width: 426px) and (max-width: 1024px) {
+}
+
+/* Responsive Téléphone */
+
+@media screen and (max-width: 425px) {
+  .centerCarousel {
+    width: 100%;
+  }
+  .carousel {
+    padding: 0px;
+  }
+  .paragraphe1 {
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .titleRealisations {
+    font-size: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .fistText {
+    width: 80%;
+  }
 }

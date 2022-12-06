@@ -60,3 +60,11 @@
   width: 120px;
   margin-top: 20px;
 }
+
+/* Responsive Téléphone */
+
+@media screen and (max-width: 425px) {
+  .paragraphe1 {
+    width: 80%;
+  }
+}

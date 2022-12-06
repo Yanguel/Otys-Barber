@@ -9,6 +9,7 @@
 .titreEquipe {
   text-decoration: underline;
   text-transform: uppercase;
+  font-weight: normal;
   margin-top: 40px;
 }
 .paragrapheEquipe {
@@ -40,6 +41,7 @@
 }
 .photoEquipe {
   margin: 20px;
+  border-radius: 20px;
 }
 .divTotalPhotos {
   display: flex;
@@ -70,4 +72,24 @@
   border: 4px solid #02020240;
   width: 50%;
   margin-bottom: 21px;
+}
+/* Responsive Téléphone */
+
+@media screen and (max-width: 425px) {
+  .borderHoraire {
+    width: 80%;
+  }
+  .paragraphe1Equipe {
+    width: 80%;
+  }
+  .divPhoto {
+    margin: 15px 0px 15px 0px;
+  }
+  .photoEquipe {
+    width: 100%;
+    margin: 0px;
+  }
+  .oussama {
+    height: auto;
+  }
 }

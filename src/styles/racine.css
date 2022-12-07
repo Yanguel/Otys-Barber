@@ -1,4 +1,5 @@
 #root {
   background-image: url(../assets/background.jpg);
   object-fit: cover;
+  min-width: 320px;
 }

@@ -8,7 +8,7 @@ function Home() {
   useEffect(() => {
     setTimeout(() => {
       setLoader(false)
-    }, 800)
+    })
   }, [loader])
   return (
     <div className="home">
@@ -18,13 +18,15 @@ function Home() {
         <div className="topLigne"></div>
         <div className="fistText">
           <span className="ligne"></span>
-          <h1>Oty's Barber - Barbier Cholet</h1>
-          <p className="textP1">
-            Un Barber Shop Oldschool à l’ambiance authentique, spécialisé dans
-            les coupes homme Classique Rétro, taille de barbe et Rasage.
-          </p>
+          <div className="paragrapheHome1 vignets2">
+            <h1>Oty's Barber - Barbier Cholet</h1>
+            <p className="textP1">
+              Un Barber Shop Oldschool à l’ambiance authentique, spécialisé dans
+              les coupes homme Classique Rétro, taille de barbe et Rasage.
+            </p>
+          </div>
           <span className="ligne"></span>
-          <div className="secondText">
+          <div className="secondText vignets3">
             <p className="titleAdresse">
               11 Rue Nantaise, 49300 Cholet, France
             </p>

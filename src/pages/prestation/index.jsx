@@ -3,18 +3,18 @@ import '../../styles/prestations.css'
 function Prestations() {
   return (
     <section className="containerPrestations">
-      <h1 className="titlePrestation souligner">
+      <h1 className="titlePrestation souligner vignets1">
         {' '}
         VOICI LES PRESTATIONS PROPOSÉES{' '}
       </h1>
       <div className="divPrestations">
-        <ul className="ulClassique">
+        <ul className="ulClassique vignets2">
           {' '}
           <h2 className="souligner">RASAGE CLASSIQUE</h2>
           <li className="liClassique">
             {' '}
             <strong>COUPE SIMPLE</strong> (Traçage - Ciseaux - Tondeuse) :
-            <strong>20€</strong>
+            <strong> 20€</strong>
           </li>
           <li className="liClassique">
             <strong>COUPE ET BARBE</strong> (Traçage - Ciseaux - Tondeuse) :{' '}
@@ -26,19 +26,23 @@ function Prestations() {
             Tondeuse) : <strong>15€</strong>
           </li>
         </ul>
-        <ul className="ulTraditionnel">
+        <ul className="ulTraditionnel vignets3">
           <h2 className="souligner"> RASAGE TRADITIONNEL</h2>
           <li className="liTraditionnel">
-            <strong>BARBE / TRAÇAGE RASOIR :</strong>: <strong>15€</strong>
+            <strong>BARBE </strong> (Tracage - Rasoir) : <strong>15€</strong>
           </li>
           <li className="liTraditionnel">
             {' '}
-            <strong>BARBE / SERVIETTE CHAUDE :</strong>: <strong>25€</strong>
+            <strong>BARBE </strong> (Tracage - Rasoir - Serviette chaude) :{' '}
+            <strong>25€</strong>
+          </li>
+          <li className="teinture vignets">
+            {' '}
+            TEINTURE / DÉCOLORATION SUR DEVIS{' '}
           </li>
         </ul>
-        <p className="teinture"> TEINTURE / DÉCOLORATION SUR DEVIS </p>
       </div>
-      <div className="borderHoraire">
+      <div className="borderHoraire vignets4">
         <p>
           <strong>- Oty's Barber -</strong> <br /> 11 Rue Nantaise, 49300 Cholet{' '}
           <br />

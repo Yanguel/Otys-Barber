@@ -85,12 +85,39 @@ a {
 a:visited {
   color: black;
 }
-/* Responsive Tablette */
-@media screen and (max-width: 1023px) {
+
+/* Animation apparition */
+.vignets1 {
+  animation: fadein 2s;
 }
+.vignets2 {
+  animation: fadein 3s;
+}
+.vignets3 {
+  animation: fadein 4s;
+}
+.vignets4 {
+  animation: fadein 5s;
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Responsive Tablette */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .headerNav {
+    font-size: 28px;
+  }
+}
+
 /* Responsive Téléphone */
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 767px) {
   .logo {
     padding-left: 0px;
   }
@@ -107,5 +134,13 @@ a:visited {
   .socialMediaHeader {
     display: flex;
     justify-content: center;
+    padding-left: 0;
+    text-align: center;
+  }
+  .instagramHeader,
+  .facebookHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }

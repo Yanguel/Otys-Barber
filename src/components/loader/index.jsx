@@ -1,4 +1,3 @@
-import logoLoader from '../../assets/barbershop-haircut.gif'
 import logoLoaderOtys from '../../assets/logo-otys.png'
 import '../../styles/loader.css'
 function Loader() {

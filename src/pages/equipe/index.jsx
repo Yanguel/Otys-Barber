@@ -7,21 +7,21 @@ function Equipe() {
   return (
     <section className="containerEquipe">
       <div className="paragrapheEquipe">
-        <h1 className="titreEquipe">
+        <h1 className="titreEquipe vignets1">
           Voici notre équipe de Coiffeur Barbier !
         </h1>
-        <p className="paragraphe1Equipe">
+        <p className="paragraphe1Equipe vignets2">
           Nous avons réuni pour vous dans notre équipe des barbiers avec une
           forte expérience. Tout cela ajouté au savoir-faire Français, fait que
           nous pouvons aujourd’hui vous proposer un service de qualité !
         </p>
       </div>
-      <div className="divTotalPhotos">
+      <div className="divTotalPhotos vignets3">
         <div className="divPhoto">
           <img
             src={teddy}
             alt="barber Teddy "
-            className=" teddy photoEquipe"
+            className=" teddy photoEquipe "
           ></img>
           <div>
             <p className="paragrapheBottomPicture teddytext">
@@ -57,7 +57,7 @@ function Equipe() {
         </div>
       </div>
       <div className="horaireEquipe">
-        <div className="borderHoraire">
+        <div className="borderHoraire vignets4">
           <p>
             <strong>- Oty's Barber -</strong> <br /> 11 Rue Nantaise, 49300
             Cholet <br />

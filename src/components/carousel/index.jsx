@@ -6,7 +6,7 @@ import datas from '../dataCarousel'
 
 function CarouselFunction() {
   return (
-    <div className="centerCarousel">
+    <div className="centerCarousel vignets1">
       <Carousel
         autoPlay
         interval={4000}

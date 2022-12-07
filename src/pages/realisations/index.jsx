@@ -6,11 +6,11 @@ function Realisations() {
   return (
     <div className="realisations">
       <div className="textRealisations">
-        <h1 className="titleRealisations">
+        <h1 className="titleRealisations vignets1">
           {' '}
           REALISATION TAILLE DE BARBE ET COUPE DE CHEVEUX{' '}
         </h1>
-        <p className="paragraphe1">
+        <p className="paragraphe1 vignets2">
           Voici les coupes de cheveux et taille de barbe que nous réalisons chez
           OTY's Barber ; <br />
           Nous sommes spécialisés en coiffure Classic et Odl School , dégradés à
@@ -19,12 +19,12 @@ function Realisations() {
           coupes avec de la texture type Crop.
         </p>
       </div>
-      <section className="picturesRealisation">
+      <section className="picturesRealisation vignets3">
         {dataPhoto.map((photo, index) => {
           return <Realisation key={index} id={photo.id} image={photo.image} />
         })}
       </section>
-      <div className="paragrapheRealisations">
+      <div className="paragrapheRealisations vignets4">
         <p className="paragraphe2">
           Toutes les photos présentées ici sont des coupes de cheveux et des
           tailles de barbe qui ont été réalisé par notre équipe. <br />

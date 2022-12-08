@@ -28,7 +28,7 @@ function Home() {
           <span className="ligne"></span>
           <div className="secondText vignets3">
             <p className="titleAdresse">
-              11 Rue Nantaise, 49300 Cholet, France
+              11 Rue Nantaise, 49300 Cholet, France.
             </p>
             <a href="https://www.google.nl/maps/place/Oty's+BARBER/@47.0604952,-0.8841879,17z/data=!3m1!4b1!4m5!3m4!1s0x480647a225895d8d:0xdfad97c43a48c5ff!8m2!3d47.0605198!4d-0.8820123">
               <button className="itineraire">Itinéraire</button>

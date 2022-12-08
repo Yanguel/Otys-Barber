@@ -88,16 +88,16 @@ a:visited {
 
 /* Animation apparition */
 .vignets1 {
-  animation: fadein 2s;
+  animation: fadein 1s;
 }
 .vignets2 {
-  animation: fadein 3s;
+  animation: fadein 2s;
 }
 .vignets3 {
-  animation: fadein 4s;
+  animation: fadein 3s;
 }
 .vignets4 {
-  animation: fadein 5s;
+  animation: fadein 4s;
 }
 @keyframes fadein {
   from {

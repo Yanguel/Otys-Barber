@@ -11,7 +11,7 @@ function Header() {
           <div className="ligneTop"></div>
         </div>
         <div className="logoDiv">
-          <Link to="/">
+          <Link to="/Otys-Barber/">
             <img src={Logo} alt="Logo Oty's Barber" className="logo" />
           </Link>
           <div>
@@ -35,7 +35,7 @@ function Header() {
         </div>
         <nav className="listePuce">
           <ul className="headerNav">
-            <Link to="/" className="accueil">
+            <Link to="/Otys-Barber/" className="accueil">
               <li>
                 <span className="iconeHeader">a</span>ACCUEIL
               </li>

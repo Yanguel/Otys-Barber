@@ -16,7 +16,7 @@ root.render(
   <BrowserRouter>
     <Header />
     <Routes>
-      <Route path="/" element={<Home />} />
+      <Route path="/Otys-Barber/" element={<Home />} />
       <Route path="/réalisations" element={<Realisations />} />
       <Route path="/l'équipe" element={<Equipe />} />
       <Route path="/préstations-et-tarifs" element={<Prestations />} />

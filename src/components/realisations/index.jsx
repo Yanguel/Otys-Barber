@@ -1,5 +1,5 @@
 function Realisation(props) {
-  const { id, image, title } = props
+  const { image } = props
   return (
     <article className="photoRealisations">
       <img src={image} alt="Une Réalisation" className="uneRealisation"></img>

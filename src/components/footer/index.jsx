@@ -1,6 +1,7 @@
 import React from 'react'
 import '../../styles/footer.css'
 import Logo from '../../assets/logo-otys.png'
+import { Link } from 'react-router-dom'
 
 function Footer() {
   ;<script
@@ -10,7 +11,9 @@ function Footer() {
   return (
     <footer>
       <div className="absolute">
-        <img src={Logo} alt="Logo Oty's Barber" className="footerLogo" />
+        <Link to="/Otys-Barber/">
+          <img src={Logo} alt="Logo Oty's Barber" className="footerLogo" />
+        </Link>
       </div>
     </footer>
   )

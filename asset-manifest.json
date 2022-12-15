@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/Otys-Barber/static/css/main.d1e960e0.css",
+    "main.js": "/Otys-Barber/static/js/main.1c2f5efe.js",
+    "static/media/background.jpg": "/Otys-Barber/static/media/background.7b420d3f2bccb09a2951.jpg",
+    "static/media/real12.png": "/Otys-Barber/static/media/real12.fdb6614ab0b1c290a3e1.png",
+    "static/media/real10.png": "/Otys-Barber/static/media/real10.c1d91bc26baaa74f0725.png",
+    "static/media/photo5.jpg": "/Otys-Barber/static/media/photo5.d43975b9488521d0eaf7.jpg",
+    "static/media/real11.png": "/Otys-Barber/static/media/real11.b3dcbd503e76ff719422.png",
+    "static/media/ouss2.png": "/Otys-Barber/static/media/ouss2.b69366e74a19cbe8e2f9.png",
+    "static/media/photo2.jpg": "/Otys-Barber/static/media/photo2.56bcdb38c280c9bc19c9.jpg",
+    "static/media/photo3.jpg": "/Otys-Barber/static/media/photo3.7cb2275501c2b323817d.jpg",
+    "static/media/Barber icone.ttf": "/Otys-Barber/static/media/Barber icone.8ea30da869d96647f90d.ttf",
+    "static/media/Gruppo-Regular.ttf": "/Otys-Barber/static/media/Gruppo-Regular.2393675620be8c54ff95.ttf",
+    "static/media/Rockwell.ttf": "/Otys-Barber/static/media/Rockwell.d4c47d23aceb5a1710d6.ttf",
+    "static/media/photo1.jpg": "/Otys-Barber/static/media/photo1.473c3fba1bbcbad3b0b5.jpg",
+    "static/media/photo6.jpg": "/Otys-Barber/static/media/photo6.58d79c87579b52cd2e0e.jpg",
+    "static/media/logo-otys.png": "/Otys-Barber/static/media/logo-otys.1acfdcafe33176063da7.png",
+    "static/media/real6.png": "/Otys-Barber/static/media/real6.280ddf1d985c8b063724.png",
+    "static/media/real2.png": "/Otys-Barber/static/media/real2.9dd25880b2065070b64b.png",
+    "static/media/real7.png": "/Otys-Barber/static/media/real7.faf0e40fadfbd185b2e0.png",
+    "static/media/photo4.jpg": "/Otys-Barber/static/media/photo4.dfe5d2a44c77deea53f6.jpg",
+    "static/media/real9.png": "/Otys-Barber/static/media/real9.77b8b0a9b2f46860afc9.png",
+    "static/media/real8.png": "/Otys-Barber/static/media/real8.ff94ed8dc82ad317b47d.png",
+    "static/media/real5.png": "/Otys-Barber/static/media/real5.71ca9af51304bb54175a.png",
+    "static/media/real3.png": "/Otys-Barber/static/media/real3.bc924e4c42937a48cf94.png",
+    "static/media/All Star Resort.ttf": "/Otys-Barber/static/media/All Star Resort.63a22b905974ec9230da.ttf",
+    "static/media/thibault.jpg": "/Otys-Barber/static/media/thibault.e7b610329de518bdf5be.jpg",
+    "static/media/real1.png": "/Otys-Barber/static/media/real1.0fedf832e9a854b87ca1.png",
+    "static/media/teddy.jpg": "/Otys-Barber/static/media/teddy.9ef31343ead3f86e7369.jpg",
+    "static/media/real4.png": "/Otys-Barber/static/media/real4.6ec6929486f7e2f9893c.png",
+    "static/media/instagram.png": "/Otys-Barber/static/media/instagram.50cd841a8e0afb7e68c9.png",
+    "index.html": "/Otys-Barber/index.html",
+    "main.d1e960e0.css.map": "/Otys-Barber/static/css/main.d1e960e0.css.map",
+    "main.1c2f5efe.js.map": "/Otys-Barber/static/js/main.1c2f5efe.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d1e960e0.css",
+    "static/js/main.1c2f5efe.js"
+  ]
+}

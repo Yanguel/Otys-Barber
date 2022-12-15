@@ -59,8 +59,8 @@ function Equipe() {
       <div className="horaireEquipe">
         <div className="borderHoraire vignets4">
           <p>
-            <strong>- Oty's Barber -</strong> <br /> 11 Rue Nantaise, 49300
-            Cholet <br />
+            <strong className="otysBarber">- Oty's Barber -</strong> <br /> 11
+            Rue Nantaise, 49300 Cholet <br />
             Lundi de 14h à 19h <br /> Du Mardi au Vendredi de 10h à 19h <br />
             Samedi de 10h à 14h30 <br /> Téléphone : 06 17 43 34 56
           </p>

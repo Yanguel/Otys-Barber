@@ -3,13 +3,12 @@
   src: url('../styles/fonts/Barber\ icone.ttf');
 }
 @font-face {
-  font-family: 'vintage';
-  src: url('./fonts/Amarante-Regular.ttf');
+  font-family: 'Gruppo';
+  src: url('./fonts/Gruppo-Regular.ttf');
 }
 .titlePrestation {
-  font-family: vintage;
+  font-family: Gruppo;
   margin-top: 40px;
-  font-weight: normal;
 }
 .containerPrestations {
   display: flex;
@@ -19,7 +18,8 @@
 }
 .divPrestations {
   text-align: justify;
-  font-family: vintage;
+  font-family: Gruppo;
+  font-weight: 400;
   text-align: center;
 }
 .ulClassique,
@@ -33,13 +33,14 @@
 .teinture {
   font-size: 20px;
   text-align: center;
+  font-weight: 600;
 }
 .souligner {
   text-decoration: underline;
 }
 .borderHoraire {
-  font-family: vintage;
-
+  font-family: Gruppo;
+  font-weight: 600;
   font-size: 20px;
 }
 

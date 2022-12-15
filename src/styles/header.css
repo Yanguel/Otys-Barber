@@ -7,8 +7,8 @@
   src: url('./fonts/All\ Star\ Resort.ttf');
 }
 @font-face {
-  font-family: 'vintage';
-  src: url('./fonts/Amarante-Regular.ttf');
+  font-family: 'Gruppo';
+  src: url('./fonts/Gruppo-Regular.ttf');
 }
 /* Header déroulant !
 
@@ -50,7 +50,8 @@
 }
 .socialMediaHeader {
   list-style: none;
-  font-family: vintage;
+  font-family: Gruppo;
+  font-weight: 600;
   font-size: 15px;
 }
 .logo {

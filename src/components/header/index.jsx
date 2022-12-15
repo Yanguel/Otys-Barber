@@ -23,13 +23,6 @@ function Header() {
                   <p>Suivez nous sur instagram !</p>
                 </li>
               </a>
-              <a href="https://www.facebook.com/otysbarber/">
-                <li className="facebookHeader">
-                  {' '}
-                  <i className="fa-brands fa-facebook fa-bounce fa-2xl fa-black"></i>{' '}
-                  <p className="textFcb">Voici notre Facebook !</p>
-                </li>
-              </a>
             </ul>
           </div>
         </div>

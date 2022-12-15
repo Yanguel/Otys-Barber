@@ -7,18 +7,18 @@
   src: url('./fonts/All\ Star\ Resort.ttf');
 }
 @font-face {
-  font-family: 'vintage';
-  src: url('./fonts/Amarante-Regular.ttf');
+  font-family: 'Gruppo';
+  src: url('./fonts/Gruppo-Regular.ttf');
 }
 .titleRealisations {
   text-decoration: underline;
   text-align: center;
   margin-top: 40px;
-  font-family: vintage;
-  font-weight: normal;
 }
 .textRealisations {
   display: flex;
+  font-family: Gruppo;
+  font-weight: 600;
   flex-direction: column;
   align-items: center;
 }
@@ -26,7 +26,6 @@
   width: 50%;
   text-align: center;
   font-size: 20px;
-  font-family: vintage;
 }
 .picturesRealisation {
   display: flex;
@@ -50,7 +49,8 @@
 .paragrapheRealisations {
   text-align: center;
   font-size: 20px;
-  font-family: vintage;
+  font-family: Gruppo;
+  font-weight: 600;
   margin: 0px 20px 0px 20px;
 }
 .paragraphe2 {

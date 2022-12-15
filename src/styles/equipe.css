@@ -1,16 +1,11 @@
 @font-face {
-  font-family: 'barbers';
-  src: url('./fonts/Rockwell.ttf');
-}
-@font-face {
-  font-family: 'vintage';
-  src: url('./fonts/Amarante-Regular.ttf');
+  font-family: 'Gruppo';
+  src: url('./fonts/Gruppo-Regular.ttf');
 }
 
 .titreEquipe {
   text-decoration: underline;
   text-transform: uppercase;
-  font-weight: normal;
   margin-top: 40px;
 }
 .paragrapheEquipe {
@@ -18,7 +13,8 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  font-family: vintage;
+  font-weight: 600;
+  font-family: Gruppo;
 }
 
 .paragraphe1Equipe {
@@ -37,8 +33,9 @@
     rgba(255, 255, 255, 1) 94%
   );
   margin: 20px;
-  font-family: vintage;
+  font-family: Gruppo;
   border-radius: 20px;
+  font-weight: 600;
 }
 .photoEquipe {
   margin: 20px;
@@ -64,7 +61,6 @@
   font-size: xx-large;
 }
 .horaireEquipe {
-  font-family: barbers;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -74,7 +70,9 @@
   width: 50%;
   margin-bottom: 21px;
 }
-
+.otysBarber {
+  text-decoration: underline;
+}
 /* Responsive Tablette */
 @media screen and (min-width: 425px) and (max-width: 1023px) {
 }
